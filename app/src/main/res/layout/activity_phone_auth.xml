@@ -70,6 +70,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/hint_phone_number"
                     android:layout_weight="1.0"
+                    android:text="+91"
                     android:inputType="phone"/>
 
                 <EditText

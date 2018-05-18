@@ -55,6 +55,12 @@ public class GoogleSignInActivity extends BaseActivity implements
     private TextView mDetailTextView;
 
     @Override
+    public void onBackPressed() {
+        signOut();
+        super.onBackPressed();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google);
